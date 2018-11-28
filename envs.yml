@@ -1,17 +1,1 @@
-envs:
-   env1:
-      app_server: app01.domain
-      db_server: db01.domain
-      hosts:
-         - host1-env1.domain
-         - host2-env1.domain
-         - app01.domain
-         - db01.domain
-   env2:
-      app_server: app02.domain
-      db_server: db02.domain
-      hosts:
-         - host1-env2.domain
-         - host2-env2.domain
-         - app02.domain
-         - db02.domain
+- ping:
